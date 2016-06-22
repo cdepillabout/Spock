@@ -39,7 +39,7 @@ module Web.Spock.Shared
     , sessionRegenerateId, getSessionId, readSession, writeSession
     , modifySession, modifySession', modifyReadSession, mapAllSessions, clearAllSessions
      -- * Internals for extending Spock
-    , getSpockHeart, runSpockIO, WebStateM, WebState
+    , getSpockHeart, getSpockPool, runSpockIO, WebStateM, WebState
     )
 where
 
